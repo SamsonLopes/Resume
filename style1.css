@@ -1,41 +1,49 @@
 body
 {
-	border-style: solid;
-	margin:25px;
+/*	border-style: solid;*/
 	font-size: 20px;
+	height:100%;
+	max-width: 1380px;
+	padding: 20px;
 }
 img{
-	float: right;
+  float: right;
 	height: 150px;
 	width:150px;
-    margin-right: 50px;
-	border: 2px groove;
-	border-color: black;
-
+	padding-right: 27px;
 }
-.info p{
-	margin-left: 50px;
-	font-size: 20px;
-}
-.obj {
-	margin-left: 50px;
-	font-size: 20px;
+.name{
+	font-size: 2em;
+  font-family: fantasy;
 }
 .obj h3{
 	font-style: underline;
-
 }
-.qlfn table, th, td {
-  border: 1px solid black;
+.qlfn table,th,td{
+  border: 1px double black;
   text-align: center;
 }
-.pa {
-	margin-left: 50px;
-}
-.pd {
-	margin-left: 50px;
-}
 .sig p{
-	margin-left: 1064px;
-	margin-bottom: 35px;
+	align-content: center;
+	text-align:right;
+}
+.sig{
+	margin-right: 30px;
+
+}
+table{
+/*	width: 15%;*/
+}
+fieldset {
+            border-radius: 8px;
+            border-width: 3px;
+            padding: 20px;
+
+        }
+
+
+@media screen and (max-width:400px){
+			th{
+			font-size: 5px;
+			}
 }
